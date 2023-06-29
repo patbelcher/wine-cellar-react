@@ -21,10 +21,11 @@ const getDrink = async(drinkType) => {
                 <button onClick={() => setDrinkType('dessert')}>Dessert</button>
                 <button onClick={() => setDrinkType('port')}>Port</button>
             </nav>
-            <div>
+            <div className="button-getdrink">
                 <button onClick={ () => getDrink(drinkType)}>get drink</button>
             </div>
 
+            <div className="drink-container">
             <h2>{drinkType}</h2>
             <div className="drink-list">
                 {
@@ -32,7 +33,7 @@ const getDrink = async(drinkType) => {
                     ? <p>No list</p>
                     : drinkList.map( (element, index)=> {
                         return (
-                            <div key={index}>
+                            <div className='hover-effect' key={index}>
                                 <img src={element.image} alt="cover"/>
                                 <h3>{element.wine}</h3>
                                 <p>{element.location}</p>
@@ -41,7 +42,7 @@ const getDrink = async(drinkType) => {
                             </div>
                         )})
                 }
-                
+               </div> 
             </div>
         </section>
     )
