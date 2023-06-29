@@ -1,7 +1,7 @@
 # Wine Cellar React
 Developed a React application that explores map functionality, utilizing concepts such as `useState`, `fetch`, and integration with a freely available sample API.
 
-[![screen shot](./public/images/screenshot.png)](https:yahoo.com)
+[![screen shot](./public/images/screenshot.png)](https://json-wine-cellar.web.app)
 # Features
 * useState()
 * Fetch
@@ -9,4 +9,4 @@ Developed a React application that explores map functionality, utilizing concept
 
 <br> 
 
-# [click this link](https://www.yahoo.com)
+# [click this link](https://json-wine-cellar.web.app)
